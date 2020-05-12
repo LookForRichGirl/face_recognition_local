@@ -11,11 +11,6 @@ Page({
       url: '/pages/main/main'
     })
   },
-  go_test: function(param){
-    wx.navigateTo({
-      url: '/pages/test/test'
-    })
-  },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({

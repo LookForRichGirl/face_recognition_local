@@ -15,10 +15,3 @@
     </button>
   </view>
 </view>
-
-
- <view>
-  <button bindtap='go_test' class='btn1'>
-  <view>测试</view>
-  </button>
- </view>

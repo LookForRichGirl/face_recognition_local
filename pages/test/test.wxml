@@ -1,5 +1,0 @@
-<!--pages/test/test.wxml-->
-<view>
-  <button type = 'primary' bindtap="chooseimage">获取图片</button>
-  <image mode="scaleToFill" src="{{imgPath}}"></image>
-</view>
