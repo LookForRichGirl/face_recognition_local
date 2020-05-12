@@ -2,7 +2,7 @@
   <camera class="camera" device-position="front" wx:if="{{camera}}" flash="off"> </camera>
 
   <view class='btn_all'>
-        <button class="btn_open" bindtap="open" type="primary" data-type="takePhoto">采集人脸</button>
+        <button class="btn_open" bindtap="open" data-type="takePhoto">采集人脸</button>
   </view>
 
   <view class="window">
@@ -18,7 +18,7 @@
   </view>
 
   <view class='btn_all'>
-        <button class="btn_close" bindtap="register" type="primary" data-type="endPhoto">注册人脸</button>
+        <button class="btn_close" bindtap="register" data-type="endPhoto">注册人脸</button>
   </view>
 </view>
 

@@ -2,10 +2,10 @@
   <camera class="camera" device-position="front" wx:if="{{camera}}" flash="off"> </camera>
   <view class="btn_all">
       <view class='btn_open'>
-        <button bindtap="open" type="primary" data-type="takePhoto">登录</button>
+        <button bindtap="open" data-type="takePhoto">登录</button>
       </view>
       <view class='btn_close'>
-        <button bindtap="close" type="primary" data-type="endPhoto">停止</button>
+        <button bindtap="close" data-type="endPhoto">停止</button>
       </view>    
   </view>
 

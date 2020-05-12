@@ -2,10 +2,10 @@
 
   <view class="btn_all">
       <view class='btn_register'>
-        <button bindtap="face_register" type="primary">人脸注册</button>
+        <button bindtap="face_register">人脸注册</button>
       </view>
       <view class='btn_login'>
-        <button bindtap="face_login" type="primary" >人脸登录</button>
+        <button bindtap="face_login" >人脸登录</button>
       </view>    
   </view>
 
