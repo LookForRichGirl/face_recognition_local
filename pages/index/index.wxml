@@ -10,8 +10,6 @@
   </view>  
 
   <view class="btn_start">
-    <button bindtap='go_main' class='btn1'>
-        <view>开启学习</view>
-    </button>
+    <button bindtap='go_main' class='btn1'>开启学习</button>
   </view>
 </view>
