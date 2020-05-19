@@ -46,7 +46,7 @@ Page({
             console.log(res.tempImagePath)
             var tempImagePath = res.tempImagePath
             wx.uploadFile({
-              url: 'http://192.168.0.113:90/face_login',
+              url: 'http://localhost:90/face_login',
               filePath: tempImagePath,
               name: 'file',
               header: { "Content-type": "multipart/form-data" },

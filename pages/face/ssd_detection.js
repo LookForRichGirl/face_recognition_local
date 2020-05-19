@@ -45,7 +45,7 @@ Page({
             console.log(res.tempImagePath)
             var tempImagePath = res.tempImagePath
             wx.uploadFile({
-              url: 'http://192.168.0.113:90/upload',
+              url: 'http://localhost:90/upload',
               filePath: tempImagePath,
               name: 'file',
               header: { "Content-type": "multipart/form-data" },
@@ -53,7 +53,7 @@ Page({
                 var im_path = res.data
                 console.log(im_path)
                 wx.request({
-                  url: 'http://192.168.0.113:90/face_detect?url=' + im_path,
+                  url: 'http://localhost:90/face_detect?url=' + im_path,
                   method: "GET",
                   header: { "Content-type": "application/json" },
                   success: function (res) {
